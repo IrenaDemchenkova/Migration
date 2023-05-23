@@ -3,11 +3,11 @@ values ('Alexey', 'Petrov', 45, '9164567489');
 insert into customers (name, surname, age, phone_number)
 values ('Olga', 'Mironova', 23, '9254578786');
 insert into customers (name, surname, age, phone_number)
-values ('alexey', 'Ivanov', 32, '6214557895');
+values ('Ivan', 'Ivanov', 32, '6214557895');
 insert into customers (name, surname, age, phone_number)
 values ('Oleg', 'Govorov', 39, '9254544544');
 insert into customers (name, surname, age, phone_number)
-values ('aleXey', 'Mashkov', 30, '9104578965');
+values ('Pavel', 'Mashkov', 30, '9104578965');
 
 
 insert into orders (date, customer_id, product_name, amount)
