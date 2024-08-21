@@ -1,13 +1,13 @@
-package ru.irenademchenkova.dao_layer;
+package ru.irenademchenkova.migration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DaoLayerApplication {
+public class MigrationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DaoLayerApplication.class, args);
+        SpringApplication.run(MigrationApplication.class, args);
     }
 
 }

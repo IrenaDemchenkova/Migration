@@ -1,10 +1,10 @@
-package ru.irenademchenkova.dao_layer;
+package ru.irenademchenkova.migration;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DaoLayerApplicationTests {
+class MigrationApplicationTests {
 
     @Test
     void contextLoads() {
