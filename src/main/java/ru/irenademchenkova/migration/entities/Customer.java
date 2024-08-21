@@ -6,16 +6,17 @@ import java.util.List;
 
 @Entity
 @Table(name = "customers")
+@IdClass(String.class)
 public class Customer {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    public Long id;
-
+    @Column
     public String name;
 
+    @Id
     @Column
     public String surname;
 
+    @Id
     @Column
     public int age;
 
